@@ -65,4 +65,14 @@ public class Game {
         b.show();
     }
 
+    public static void main(String[] args) {
+        Game g = new Game();
+        g.renderables.add(new Renderable() {
+            @Override
+            public void render(Graphics2D g, float interpolation) {
+                
+            }
+        })
+    }
+
 }
