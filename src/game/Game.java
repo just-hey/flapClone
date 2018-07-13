@@ -70,7 +70,7 @@ public class Game {
         g.renderables.add(new Renderable() {
             @Override
             public void render(Graphics2D g, float interpolation) {
-                
+
             }
         })
     }
